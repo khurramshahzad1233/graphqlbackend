@@ -1,0 +1,13 @@
+how to set graphql in node js app;
+
+----https://www.apollographql.com/docs/apollo-server/getting-started---- this is the required code documentation----
+and we are going run apollo graphql server with mongodb
+
+step 1: npm init -y --- to install node package manager;
+set "type":"module" before install packages 
+
+npm install @apollo/server graphql
+now like normally create backend folder and create app.js and server.js files inside of it or you can do this step before everything like normally we do it; with express nodemon normal server
+------------------------------------------------------
+
+
