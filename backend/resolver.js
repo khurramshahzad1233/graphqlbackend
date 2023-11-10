@@ -7,6 +7,8 @@ export const resolver= {
     Query:{
         getTodos:()=>TODOS,
         getAllUsers:()=>USERS,
-        getUser:async(parent, {id})=>USERS.find((e)=>e.id===id),
+        getUser(parent, args,contextValue,info){
+            return USERS.find((user)=>user.id===args.id)
+        },
     },
 }

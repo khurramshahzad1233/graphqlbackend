@@ -1,6 +1,6 @@
 export const USERS = [
   {
-    id: 1,
+    id: "1",
     name: "Leanne Graham",
     username: "Bret",
     email: "Sincere@april.biz",
@@ -23,7 +23,7 @@ export const USERS = [
     },
   },
   {
-    id: 2,
+    id: "2",
     name: "Ervin Howell",
     username: "Antonette",
     email: "Shanna@melissa.tv",
@@ -46,7 +46,7 @@ export const USERS = [
     },
   },
   {
-    id: 3,
+    id: "3",
     name: "Clementine Bauch",
     username: "Samantha",
     email: "Nathan@yesenia.net",
@@ -69,7 +69,7 @@ export const USERS = [
     },
   },
   {
-    id: 4,
+    id: "4",
     name: "Patricia Lebsack",
     username: "Karianne",
     email: "Julianne.OConner@kory.org",
@@ -92,7 +92,7 @@ export const USERS = [
     },
   },
   {
-    id: 5,
+    id: "",
     name: "Chelsey Dietrich",
     username: "Kamren",
     email: "Lucio_Hettinger@annie.ca",
